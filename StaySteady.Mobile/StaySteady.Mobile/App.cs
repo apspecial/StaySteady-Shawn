@@ -12,7 +12,9 @@ namespace StaySteady.Mobile
     {
         public App()
         {
-            MainPage = new DailyActivity();
+            //MainPage = new DailyActivity();
+			//MainPage = new ReportPage();
+			MainPage = new SummaryPage();
             // The root page of your application
             //MainPage = new ContentPage
             //{

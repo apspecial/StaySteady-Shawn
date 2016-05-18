@@ -40,6 +40,12 @@
     <Compile Include="Views\DailyActivity.xaml.cs">
       <DependentUpon>DailyActivity.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\ReportPage.xaml.cs">
+      <DependentUpon>ReportPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\SummaryPage.xaml.cs">
+      <DependentUpon>SummaryPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -63,6 +69,12 @@
     <EmbeddedResource Include="Views\DailyActivity.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\SummaryPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
